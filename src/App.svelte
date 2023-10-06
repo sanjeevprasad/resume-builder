@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="flex gap-3">
-      {#each r.social as s}
+      {#each r?.social as s}
         <div class="flex gap-1 mr-1">
           <i class="fab fa-{s.network}" />
           <a class="text-sm font-normal" href={s.url}>{s.username}</a>
@@ -42,14 +42,14 @@
       <div class="mb-3">
         <div class="relative font-medium border-b-4 border-blue-500">Summary</div>
         <ul class="list-disc text-xs pl-4 py-1.5">
-          {#each r.summary as summary}
+          {#each r?.summary as summary}
             <li>{summary}</li>
           {/each}
         </ul>
       </div>
       <div class="mb-3">
         <div class="relative font-medium border-b-4 border-blue-500">Experience</div>
-        {#each r.work as w}
+        {#each r?.work as w}
           <div class="break-inside-avoid py-2">
             <p class="text-lg font-medium text-blue-600">{w.position}</p>
             <div class="flex justify-between items-center">
@@ -77,7 +77,7 @@
     <div class="basis-[40%] p-2">
       <div class="relative font-medium border-b-4 border-blue-500">Objective</div>
       <div class="text-xs pt-1.5 pb-3">{r.objective}</div>
-      {#each r.skillscategories as category}
+      {#each r?.skillscategories as category}
         <div class="break-inside-avoid py-2">
           <div class="relative font-medium border-b-4 border-blue-500">{category.name}</div>
           <div class="flex items-center flex-wrap gap-2 py-1">
@@ -89,7 +89,7 @@
       {/each}
       <div class="break-inside-avoid py-2">
         <div class="relative font-medium border-b-4 border-blue-500">Education</div>
-        {#each r.education as e}
+        {#each r?.education as e}
           <div class="py-2">
             <p class="text font-medium">{e.institution}</p>
             <div class="flex justify-between items-center">

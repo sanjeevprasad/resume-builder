@@ -9,5 +9,7 @@ export default defineConfig({
         { src: 'node_modules/monaco-editor/min', dest: 'monaco' },
       ]
     }),
-    svelte()],
+    svelte()
+  ],
+  base: '/resume-builder'
 })
