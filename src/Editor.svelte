@@ -27,6 +27,7 @@
       formatOnType: true,
       theme: "vs-dark",
       tabSize: 2,
+      automaticLayout: true,
     });
     monaco.languages.json.jsonDefaults.setDiagnosticsOptions({
       validate: true,
