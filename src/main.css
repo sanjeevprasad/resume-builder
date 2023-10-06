@@ -8,3 +8,9 @@ html {
 @tailwind components;
 
 @tailwind utilities;
+
+@media print {
+  .monaco-aria-container {
+    display: none;
+  }
+}
