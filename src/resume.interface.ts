@@ -1,0 +1,16 @@
+export interface Resume {
+  name: string,
+  jobtitle: string,
+  email: string,
+  phone: string,
+  website: string,
+  image: string,
+  location: string,
+  objective: string,
+  social: ({ network: string, username: string, url: string })[],
+  summary: string[],
+  work: ({ position: string, company: string, daterange: string, summary: string[] })[],
+  skillscategories: ({ name: string, skills: string[] })[],
+  education: { institution: string, degree: string, course: string, daterange: string, score: string }[],
+  showfact: boolean,
+}
