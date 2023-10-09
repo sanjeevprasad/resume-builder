@@ -17,7 +17,8 @@
     editor.setValue(JSON.stringify(json, null, 2));
     format_editor();
   };
-  loader.config({ paths: { vs: "./monaco/min/vs" } });
+  // loader.config({ paths: { vs: "./monaco/min/vs" } });
+  loader.config({ paths: { vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs" } });
   let loadMonaco = async () => {
     let monaco = await loader.init();
     editor = monaco.editor.create(editor_div, {
