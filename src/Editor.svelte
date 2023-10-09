@@ -72,7 +72,7 @@
     </a>
   </div>
   <div class="text-gray-200 text-xs italic">
-    <span>Modify JSON as to create your resume. Press </span>
+    <span>Modify JSON below to create your resume. Press </span>
     <div class="inline-block border border-gray-600 rounded px-1">Ctrl</div>
     <span>+</span>
     <div class="inline-block border border-gray-600 rounded px-1">P</div>
