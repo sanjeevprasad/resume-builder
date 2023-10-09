@@ -47,7 +47,7 @@ let resume: Resume = {
   }],
   "skillscategories": [{
     "name": "Programming Languages",
-    "skills": ["TypeScript", "JavaScript"],
+    "skills": ["Rust", "C", "C++", "TypeScript", "JavaScript"],
   }, {
     "name": "Framework and Libraries",
     "skills": ["Angular", "React", "Bootstrap", "TailwindCSS"],

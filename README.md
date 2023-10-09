@@ -4,7 +4,7 @@ I don't use windows so no Microsoft Word. So I created my own resume builder usi
 just edit json to quickly create or update your resume.
 Live demo => https://sanjeevprasad.net/resume-builder/
 
-Just use your browser to create your resume quickly. No data is transferred.
+Use your browser to create your resume quickly, by just editing JSON. No data is transferred or saved.
 If you want to save a copy, it is recommended to save it manually in a json file on your own system.
 
 # Build Step
