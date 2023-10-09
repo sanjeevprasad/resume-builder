@@ -50,7 +50,7 @@ let resume: Resume = {
     "skills": ["Rust", "C", "C++", "TypeScript", "JavaScript"],
   }, {
     "name": "Framework and Libraries",
-    "skills": ["Angular", "React", "Bootstrap", "TailwindCSS"],
+    "skills": ["Svelte", "Angular", "React", "Bootstrap", "TailwindCSS"],
   }, {
     "name": "Databases",
     "skills": ["MySQL/MariaDB", "MongoDB"],
