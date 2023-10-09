@@ -58,7 +58,18 @@
 </script>
 
 <div class="flex flex-col border-b p-2 border-gray-600 text-white bg-[#1e1e1e]">
-  <div class="text-gray-200 text-3xl">Resume Builder</div>
+  <div class="flex flex-row">
+    <div class="text-gray-200 text-3xl">Resume Builder</div>
+    <div class="flex mx-auto" />
+    <a class="flex github-button mr-1" target="_blank" href="https://github.com/sanjeevprasad/resume-builder">
+      <i class="far fa-star" />
+      Star
+    </a>
+    <a class="flex github-button" target="_blank" href="https://github.com/sanjeevprasad/resume-builder/fork">
+      <i class="fab fa-github" />
+      Fork
+    </a>
+  </div>
   <div class="text-gray-200 text-xs italic">
     <span>Modify JSON as to create your resume. Press </span>
     <div class="inline-block border border-gray-600 rounded px-1">Ctrl</div>
@@ -68,3 +79,23 @@
   </div>
 </div>
 <div class="flex grow bg-[#1e1e1e]" bind:this={editor_div} />
+
+<style>
+  .github-button {
+    padding: 0 10px;
+    height: 28px;
+    line-height: 26px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #333;
+    margin-bottom: 5px;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    vertical-align: top;
+    background: #fff;
+    background-color: #eee;
+    background: linear-gradient(#fcfcfc, #eee);
+  }
+</style>
