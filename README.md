@@ -1,6 +1,6 @@
 # Resume builder
 
-I don't use windows so no Microsoft Word. All google docs and other resume templates are looks like garbage to me. So I created my own resume builder using Svelte and TailwindCSS.
+I don't use windows so no Microsoft Word. All google docs and other resume templates looks like garbage to me. So I created my own resume builder using Svelte and TailwindCSS.
 just edit json to quickly create or update your resume. set showfact to false to hide Additional fact from your pdf.
 
 You can download pdf by pressing `ctrl` + `p`. and remove margin from the print menu.
