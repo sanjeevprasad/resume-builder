@@ -87,21 +87,23 @@
           </div>
         </div>
       {/each}
-      <div class="break-inside-avoid py-2">
-        <div class="relative font-medium border-b-4 border-blue-500">Education</div>
-        {#each r?.education as e}
-          <div class="py-2">
-            <p class="text font-medium">{e.institution}</p>
-            <div class="flex justify-between items-center">
-              <div class="flex gap-1">
-                <div class="text-sm">{e.degree}</div>
-                <div class="text-xs pt-0.5">{e.course}</div>
+      {#if r?.education?.length}
+        <div class="break-inside-avoid py-2">
+          <div class="relative font-medium border-b-4 border-blue-500">Education</div>
+          {#each r?.education as e}
+            <div class="py-2">
+              <p class="text font-medium">{e.institution}</p>
+              <div class="flex justify-between items-center">
+                <div class="flex gap-1">
+                  <div class="text-sm">{e.degree}</div>
+                  <div class="text-xs pt-0.5">{e.course}</div>
+                </div>
+                <p class="text-xs italic">{e.daterange}</p>
               </div>
-              <p class="text-xs italic">{e.daterange}</p>
             </div>
-          </div>
-        {/each}
-      </div>
+          {/each}
+        </div>
+      {/if}
     </div>
   </div>
 </div>
