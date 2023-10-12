@@ -87,7 +87,7 @@
           </div>
         </div>
       {/each}
-      {#if r?.education?.length}
+      {#if r?.education?.length > 0}
         <div class="break-inside-avoid py-2">
           <div class="relative font-medium border-b-4 border-blue-500">Education</div>
           {#each r?.education as e}
